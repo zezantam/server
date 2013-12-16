@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -e "\033[31m Instsalling RBENV"
+echo "Instsalling RBENV"
 git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 
@@ -9,10 +9,10 @@ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bash_profile
 
-echo -e "\033[31m Reloading PATH"
+echo "Reloading PATH"
 source ~/.bash_profile
 
-echo -e "\033[31m Installing Ruby 2.0.0"
+echo "Installing Ruby 2.0.0"
 rbenv install 2.0.0-p353
 rbenv global 2.0.0-p353
 rbenv rehash
