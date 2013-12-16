@@ -19,3 +19,4 @@ curl -O https://gist.github.com/sidazhang/7896694/raw/my_configs.vim
 
 echo "Getting Golang Syntax Highligting"
 git clone https://github.com/jnwhiteh/vim-golang.git ~/.vim_runtime/sources_non_forked/vim-golang
+zsh
