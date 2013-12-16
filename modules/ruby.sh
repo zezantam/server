@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "http://gorails.com/setup/ubuntu/13.10"
 touch ~/.bash_profile
 source ~/.bash_profile
