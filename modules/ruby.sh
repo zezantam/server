@@ -1,4 +1,7 @@
 echo "http://gorails.com/setup/ubuntu/13.10"
+exec $SHELL
+echo "yo"
+
 
 echo "Instsalling RBENV"
 git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
