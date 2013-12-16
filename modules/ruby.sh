@@ -1,6 +1,4 @@
 echo "http://gorails.com/setup/ubuntu/13.10"
-echo "Switching Zsh"
-zsh
 
 echo "Instsalling RBENV"
 git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
@@ -8,11 +6,12 @@ git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-bu
 
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
 
 echo "reload path"
 exec $SHELL
-zsh
 
 echo "Build tools"
 sudo apt-get update
@@ -21,7 +20,6 @@ sudo apt-get install -y git-core curl zlib1g-dev libssl-dev libreadline-dev liby
 
 echo "Reload Path"
 exec $SHELL
-zsh
 
 echo "Installing Ruby 2.0.0"
 rbenv install 2.0.0-p353
