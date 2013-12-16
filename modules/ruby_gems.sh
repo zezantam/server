@@ -5,12 +5,12 @@ echo -e "\033[31m Installing RubyGems"
 sudo apt-get install -y rubygems
 
 echo -e "\033[31m Installing basic gems"
-gem install bundler
-gem install sinatra
-gem install bitcoin-ruby
-gem install eventmachine
-gem install sequel
-gem install sqlite3
-gem install em-dns
-gem install pg
+sudo gem install bundler
+sudo gem install sinatra
+sudo gem install bitcoin-ruby
+sudo gem install eventmachine
+sudo gem install sequel
+sudo gem install sqlite3
+sudo gem install em-dns
+sudo gem install pg
 rbenv rehash
