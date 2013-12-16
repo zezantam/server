@@ -1,5 +1,6 @@
 echo "http://gorails.com/setup/ubuntu/13.10"
-exec $SHELL
+touch ~/.bash_profile
+source ~/.bash_profile
 echo "yo"
 
 
