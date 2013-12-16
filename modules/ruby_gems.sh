@@ -1,10 +1,10 @@
-echo "Default no documentations in gems"
+echo -e "\033[31m Default no documentations in gems"
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 
-echo "Installing RubyGems"
+echo -e "\033[31m Installing RubyGems"
 sudo apt-get install -y rubygems
 
-echo "Installing basic gems"
+echo -e "\033[31m Installing basic gems"
 gem install bundler
 gem install sinatra
 gem install bitcoin-ruby
