@@ -13,6 +13,6 @@ echo "Reloading PATH"
 source ~/.bash_profile
 
 echo "Installing Ruby 2.0.0"
-rbenv install 2.0.0-p353
+CONFIGURE_OPTS="--with-readline-dir=/usr/include/readline" rbenv install 2.0.0-p353
 rbenv global 2.0.0-p353
 rbenv rehash
