@@ -1,0 +1,10 @@
+[push]
+	default = current
+[color]
+	diff = true
+	ui = true
+[core]
+	editor = /usr/bin/vim
+[user]
+	name = sidazhang
+	email = sidazhang89@gmail.com
