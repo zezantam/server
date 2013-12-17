@@ -14,4 +14,5 @@ sudo gem install sqlite3
 sudo gem install em-dns
 sudo gem install pg
 sudo gem install rails
+sudo gem install pry
 rbenv rehash
