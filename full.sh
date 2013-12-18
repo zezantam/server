@@ -7,3 +7,5 @@ cd server/modules
 ./ruby.sh
 ./ruby_gems.sh
 ./bitcoin.sh
+cd ../../
+rm -rf server
