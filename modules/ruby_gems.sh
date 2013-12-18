@@ -15,4 +15,5 @@ sudo gem install em-dns
 sudo gem install pg
 sudo gem install rails
 sudo gem install pry
+sudo gem install foreman
 rbenv rehash
