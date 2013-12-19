@@ -6,7 +6,7 @@ sudo apt-get install -yf cmake build-essential libgcrypt11-dev libjson0-dev libc
 echo "Installing yajl"
 git clone git://github.com/lloyd/yajl yajl
 cd yajl
-./configure
+ruby configure
 cmake .
 make
 sudo make install
@@ -14,7 +14,7 @@ cd ~
 
 echo "installing grive"
 git clone git://github.com/Grive/grive.git
-cd ./grive
+cd ./grive/grive
 cmake .
 make
 sudo make install
