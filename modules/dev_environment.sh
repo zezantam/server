@@ -21,3 +21,5 @@ git clone https://github.com/jnwhiteh/vim-golang.git ~/.vim_runtime/sources_non_
 echo "Setting up some basic git configs"
 curl -L https://raw.github.com/sidazhang/server/master/configs/.gitconfig > ~/.gitconfig
 cd ~
+
+echo alias gof=gofmt -s -w -l . >> ~/.zshrc
