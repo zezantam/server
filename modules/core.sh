@@ -8,3 +8,6 @@ sudo apt-get install -yf nodejs
 # for abe
 sudo apt-get install -yf python-dev
 sudo apt-get install -yf python-setuptools
+
+# for go dependencies
+sudo apt-get install -yf bzr

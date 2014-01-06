@@ -9,5 +9,5 @@ git clone https://github.com/lian/bitcoin-ruby.git
 sudo easy_install pycrypto
 git clone https://github.com/bitcoin-abe/bitcoin-abe.git
 cd bitcoin-abe/
-python setup.py install
+sudo python setup.py install
 cd ..
