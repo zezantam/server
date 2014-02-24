@@ -12,4 +12,6 @@ cd node-v0.10.26
 # This takes a while ...
 make
 
-make install
+sudo make install
+
+rm -rf node-v0.10.26/
