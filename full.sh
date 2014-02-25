@@ -1,5 +1,11 @@
+# Install Git
+sudo apt-get install git
+
+# Download Scripts
 git clone https://github.com/sidazhang/server.git
 chmod -R a+x server/modules
+
+# Install Scripts
 cd server/modules
 ./core.sh
 ./dev_environment.sh
@@ -8,4 +14,6 @@ cd server/modules
 ./ruby_gems.sh
 ./bitcoin.sh
 cd ../../
+
+# Clean UP!
 rm -rf server
