@@ -15,15 +15,15 @@ cd server/modules
 ./core.sh
 ./dev_environment.sh
 ./postgres.sh
-./ruby.sh
-./ruby_gems.sh
 ./bitcoin.sh
+./leveldb.sh
+./nodejs.sh
+
+./torrent.sh
+
+./blockchain.sh
+
 cd ../../
 
 # Clean UP!
 rm -rf server
-
-# Locales bug
-# echo 'export LC_ALL="en_US.UTF-8"' > .profile
-# echo 'export LC_ALL="en_US.UTF-8"' > .bash_profile
-# echo 'export LC_ALL="en_US.UTF-8"' > .bashrc

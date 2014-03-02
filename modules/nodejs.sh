@@ -9,7 +9,7 @@ rm node-v0.10.26.tar.gz
 cd node-v0.10.26
 ./configure
 
-# This takes a while ...
+echo "Making ... this will take some some ..."
 make
 
 sudo make install
