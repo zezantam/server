@@ -1,6 +1,6 @@
 sudo apt-get install npm -yf
 sudo apt-get install supervisor -yf
-
+npm config set registry http://registry.npmjs.org/
 
 # Install NodeJS
 wget http://nodejs.org/dist/v0.10.26/node-v0.10.26.tar.gz

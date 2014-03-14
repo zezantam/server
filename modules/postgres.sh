@@ -1,7 +1,7 @@
 # echo "Installing Postgres"
 # sudo apt-get install -y postgresql postgresql-contrib libpq-dev
 # sudo apt-get install -yf python-psycopg2
-
+sudo apt-get install libpq-dev
 
 echo "Installing Postgresql 9.3"
 # http://www.postgresql.org/download/linux/ubuntu/
